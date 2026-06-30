@@ -12,6 +12,8 @@ spring:
     name: ms-pedidos
   profiles:
     active: dev 
+  main:
+    allow-bean-definition-overriding: true
 
 # Registro en Eureka
 eureka:
